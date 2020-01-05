@@ -5,8 +5,9 @@ class Dog
 
   @@all = []
 
-
   def initialize(name, owner)
     @name = name
-  end# code goes here
+    @owner = owner 
+    @mood = "nervous"
+  end
 end
