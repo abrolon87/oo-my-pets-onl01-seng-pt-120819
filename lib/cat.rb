@@ -10,18 +10,10 @@ class Cat
     @owner = owner
     @mood = "nervous"
     @@all << self
-  end# code goes here
+  end
 
   def self.all
     @@all
   end
-
-  # attr_reader :name
-  # attr_writer :owner
-  #
-  # def initialize(name, owner)
-  # @name = name
-  # @owner = owner
-  # end# code goes here
 
 end
