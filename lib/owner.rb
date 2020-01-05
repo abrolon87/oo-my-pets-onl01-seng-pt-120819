@@ -1,6 +1,6 @@
 class Owner
 
-  attr_reader :species, :name 
+  attr_reader :species, :name
   @@all = []
 
   def initialize(name)
@@ -23,20 +23,21 @@ class Owner
 
   def self.reset_all
     self.all.clear
-=======
-  def initialize(name)
-    @name = name
-
-  end# code goes here
-
-
-
-  def say_species
-    self.species
   end
 
-  def self.all
-    self.all.count
->>>>>>> 8e1e2398b8e89db95ff682f5ae1fa398c66e445f
-  end
+  # def initialize(name)
+  #   @name = name
+  #
+  # end# code goes here
+  #
+  #
+  #
+  # def say_species
+  #   self.species
+  # end
+  #
+  # def self.all
+  #   self.all.count
+  #
+  # end
 end
